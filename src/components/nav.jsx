@@ -3,12 +3,12 @@ import React from 'react';
 function NavBar() {
   return (
     <div className="flex justify-between items-center px-20 py-6">
-      <div className="text-white text-3xl font-semibold font-Poppins hover:text-sky-300 hover:shadow-sky-500 transition-all ease-in">Modern Weather</div>
+      <a href='#' className="text-white text-3xl font-semibold font-Poppins hover:text-sky-300 hover:shadow-sky-500 transition-all ease-in">Modern Weather</a>
 
       <div className="flex gap-8">
-        <div className="text-white text-lg font-medium font-Poppins hover:text-sky-300 hover:shadow-sky-400 transition-all ease-in">Home</div>
-        <div className="text-white text-lg font-medium font-Poppins hover:text-sky-300 hover:shadow-sky-400 transition-all ease-in">About</div>
-        <div className="text-white text-lg font-medium font-Poppins hover:text-sky-300 hover:shadow-sky-400 transition-all ease-in">Contact us</div>
+        <a href='#' className="text-white text-lg hover:text-xl font-medium font-Poppins hover:text-sky-300 hover:shadow-sky-400 transition-all ease-in">Home</a>
+        <a href='#' className="text-white text-lg hover:text-xl font-medium font-Poppins hover:text-sky-300 hover:shadow-sky-400 transition-all ease-in">About</a>
+        <a href='#' className="text-white text-lg hover:text-xl font-medium font-Poppins hover:text-sky-300 hover:shadow-sky-400 transition-all ease-in">Contact us</a>
       </div>
 
       <a href="https://petervillanueva.github.io/Modern-Weather-Main/" className="px-6 py-2 bg-gradient-to-r from-slate-700 to-slate-600 hover:bg-gradient-to-r hover:from-slate-800 hover:to-slate-700 hover:translate-y-[2px] transition-all ease-in-out rounded-md shadow-lg text-white text-lg font-medium font-Poppins">View Demo</a>

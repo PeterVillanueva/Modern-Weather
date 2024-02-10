@@ -10,11 +10,26 @@
 }
 
 body {
-    background-image: url('./assets/BGGRADIENT.jpg');
-    background-size: cover;
+    background: linear-gradient(90deg, #1b262c, rgb(45, 56, 63), rgb(51, 79, 95));
+    animation: animatedBackground 10s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    background-size: 200% 200%;
+    /* background-image: url('./assets/BGGRADIENT.jpg');
+    background-size: cover; */
     /* This will make the background image cover the entire body */
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     /* This will prevent the background image from repeating */
+}
+
+@keyframes animatedBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .main-container {
