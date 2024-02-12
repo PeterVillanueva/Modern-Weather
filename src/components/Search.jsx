@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Search = () => {
   return (
     <div className='px-[200px] py-[40px]'>
